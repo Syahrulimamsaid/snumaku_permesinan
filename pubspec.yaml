@@ -1,14 +1,20 @@
 name: snumaku_permesinan
-description: "A new Flutter project."
+description: "Engineering-themed educational application with augmented reality features."
 publish_to: 'none'
-version: 0.1.0
+version: 3.0.0+6
 
 environment:
   sdk: ^3.5.3
 
 dependencies:
+  get: ^4.7.2
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+  permission_handler: ^11.3.1
+  flutter_embed_unity: ^1.2.3
   flutter:
     sdk: flutter
+    
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +23,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+  - assets/images/background.png
+  - assets/images/KeepUp.png
+
+  - assets/icons/CamArIcon.png
+  - assets/icons/CapPemIcon.png
+  - assets/icons/GlosarIcon.png
+  - assets/icons/MaterIcon.png
+  - assets/icons/ProfileIcon.png
+  - assets/icons/SoalIcon.png

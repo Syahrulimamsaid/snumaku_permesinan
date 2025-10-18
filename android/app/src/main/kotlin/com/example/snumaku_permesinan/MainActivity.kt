@@ -1,4 +1,4 @@
-package com.example.snumaku_permesinan
+package com.syahrul.snumaku_permesinan
 
 import io.flutter.embedding.android.FlutterActivity
 
